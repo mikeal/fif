@@ -8,7 +8,7 @@ fif is fun, in fact, fif stands for "fif is fun" :)
 
 fif is a **subset** of JavaScript. Various language features have been removed, no syntax or language semantics have been added other than additional standard functions.
 
-fif is a platform. Standard functions, a module system, and transpilers are included.
+fif is a platform. Standard functions, a module system, and compilers are included.
 
 fif is accessible. The primary purpose of the language is to be as easy as possible to understand, learn, and teach.
 
