@@ -50,7 +50,7 @@ There is currently no automatic instantiation function called although this is u
 
 While these semantics may seem funny to those schooled in classical and prototypal inheritance, consider the issues they avoid. The `function` keyword now has a single meaning. Issues realed to `this`, especially in closures, no longer appear. The semantics around property lookup are far more understandable and easy to teach.
 
-The following keywords have been removed from JavaScript and will now throw errors: `new`, `instanceof`. Access to the property name `prototype` is no longer allowed. Assigning to or accessing `this` is also no longer allowed. 
+The following keywords have been removed from JavaScript and will now throw errors: `new`, `instanceof`. Access to the property name `prototype` is no longer allowed. Assigning to or accessing `this` is also no longer allowed.
 
 > Please note that, although this appears to be slower than using inheritance in modern vms the compiler will likely optimize copy() and clone() to use inheritance in the future in order to benefit from those vm optimizations. This is the primary reason that access to the prototype property is restricted, so that it can still be used by the fif compiler.
 
@@ -74,6 +74,7 @@ This is where we will eventually list Issues which are open discussions related 
 * Add support for browsers.
 * Explore "native" modules/plugins which can optimize the compiler.
 * Explore `clone()` and `copy()` optimizations using prototypes.
+* Explore humanized error messages for easier learning.
 
 ### 0.3.0 (FUTURE)
 
