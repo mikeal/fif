@@ -1,5 +1,7 @@
 # fif language
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mikeal/fif.svg)](https://greenkeeper.io/)
+
 **Note: this is highly unstable and is likely to make breaking changes on a daily basis.**
 
 fif is a programming language.
